@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="resources/css/timeTable-style.css" type="text/css">
+    <link rel="stylesheet" href="vendors/css/magnific-popup.css">
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+</head>
+<body>
+  <header class="profile-header">
+    <div class="profile-title">
+	<p><span class="typer" data-delay="150" data-words="TimeTable,TimeTable,TimeTable,TimeTable" data-colors="#c4e1f5,#fff,#555"></span></p>
+
+    </div>
+  </header>
+
+  <!-- My personl informaiton is here -->
+    <section class="section-profile">
+        <div class="middle">
+            <div class="main-menu">
+                <li class="item" id="about"><a href="#about" class="profile-btn"><i class="fas fa-user-tie"></i>About</a>
+                    <div class="sub-menu">
+                      <a href="#" class="exception-link"><i class="fas fa-times"></i></a><br>
+                        <a href="resources/img/king.png" class="image-popup"><img src="resources/img/king.png" alt="my-photo" class="profile-img"><span class="profile-name">OneEyeHealer</span></a>
+                        <a href="#small-dialog" class="popup-link-1">Details</a>
+                            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                        <div id="small-dialog" class="mfp-hide">
+                          <h1>Person Name</h1>
+                          <p>This is dummy copy. Here you write about your self and it can be any thing.</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- End of my peronal informaiton -->
+
+                <!--starting Monday time table section -->
+                <li class="item"  id="monday">
+                  <a href="#monday" class="profile-btn js--box"><i class="fas fa-calendar-week"></i>Monday</a>
+                    <div class="sub-menu x-menu center-position">
+                      <a href="#"><i class="fas fa-times"></i></a><br>
+                      <a href="#cse-4-monday" class="cse-4-monday-1">&#10095; CSE-4</a>
+                      <a href="#cse-6-monday" class="cse-6-monday-1">&#10095; CSE-6</a>
+                      <a href="#mca-2-monday" class="mca-4-monday-1">&#10095; MCA-2</a>
+
+                      <!-- monday time Table Cse - 4th -->
+                      <div id="cse-4-monday" class="mfp-hide timeTable-list-box">
+                        <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                      </div>
+                      <!-- end -->
+
+                      <!-- under construction -->
+                      <div id="cse-6-monday" class="mfp-hide timeTable-list-box">
+                       <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+
+                      </div>
+                      <!-- end -->
+                      <!-- End suggestion -->
+
+                      <!-- under construction -->
+                      <div id="mca-2-monday" class="mfp-hide timeTable-list-box">
+                        <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                      </div>
+                      <!-- end -->
+                      <!-- End suggestion -->
+                    </div>
+                </li>
+                <!-- End of monday section -->
+
+                <!-- starting Tuesday time table section -->
+                <li class="item" id="tuesday"><a href="#tuesday" class="profile-btn "><i class="fas fa-calendar-week"></i>Tuesday</a>
+                    <div class="sub-menu x-menu center-position">
+                      <a href="#"><i class="fas fa-times"></i></a><br>
+                        <a href="#cse-4-tuesday" class="cse-4-tuesday-2">&#10095; CSE-4</a>
+                        <a href="#cse-6-tuesday" class="cse-6-tuesday-2">&#10095; CSE-6</a>
+                        <a href="#mca-2-tuesday" class="mca-2-tuesday-2">&#10095; MCA-2</a>
+
+                        <!-- Tusday time table for cse-4 -->
+                        <div id="cse-4-tuesday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                          <span class="subject shift-right">Subject</span><br>
+                          <span class="subject-labs shift-right">Labs</span><br>
+                          <span class="free shift-right">Lunch time</span><br>
+                          <h1>Time Table</h1>
+                          <table border=2px>
+                            <!-- row 1 -->
+                            <tr>
+                              <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                              <th colspan="3">Subject</th>
+                              <th rowspan = "2">Room no.</th>
+                             </tr><!-- Row end -->
+                             <!-- row 2 -->
+                            <tr>
+                              <th>Grp-1</th>
+                              <th>Grp-2</th>
+                              <th>Grp-3</th>
+                            </tr><!-- Row end -->
+                            <!-- row 3 -->
+                            <tr>
+                              <th>09:30&nbsp;-&nbsp;10:25</th>
+                              <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 4 -->
+                            <tr>
+                              <th>10:25&nbsp;-&nbsp;11:20</th>
+                              <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 5 -->
+                            <tr>
+                              <th>11:20&nbsp;-&nbsp;12:10</th>
+                              <td colspan="3"><span class="subject shift-none">PL</span>&nbsp;- Sangeeta</td>
+                              <td> 304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 6 -->
+                            <tr>
+                              <th>12:10&nbsp;-&nbsp;01:00</th>
+                              <td><span class="subject shift-none">PL</span>&nbsp;- Sangeeta</td>
+                              <td><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                              <td><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td> 304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 7 -->
+                            <tr>
+                              <th>01:00&nbsp;-&nbsp;01:45</th>
+                              <td colspan="3"><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 8 -->
+                            <tr>
+                              <th>01:45&nbsp;-&nbsp;02:30</th>
+                              <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                            </tr><!-- Row end -->
+                            <!-- row 9 -->
+                            <tr>
+                              <th>02:30&nbsp;-&nbsp;03:20</th>
+                              <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                              <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td rowspan="2"><span class="subject-labs shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                              <td> 303</td>
+                            </tr><!-- Row end -->
+                            <!-- row 10 -->
+                            <tr>
+                              <th>03:20&nbsp;-&nbsp;04:10</th>
+                              <td> 307</td>
+                            </tr><!-- Row end -->
+                          </table><!-- Table  end -->
+                        </div>
+                        <!-- end -->
+                        <!-- end -->
+
+                        <!-- under construction -->
+                        <div id="cse-6-tuesday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+
+                        </div>
+                        <!-- end -->
+                        <!-- End suggestion -->
+
+                        <div id="mca-2-tuesday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+
+                        </div>
+                        <!-- end -->
+                        <!-- End suggestion -->
+
+                        <!-- other section -->
+
+                        <!-- end -->
+                    </div>
+                </li>
+                <!-- end of tuesday section -->
+
+                <!-- starting Wedneday time table section -->
+                <li class="item" id="wednesday"><a href="#wednesday" class="profile-btn"><i class="fas fa-calendar-week"></i>Wednesday</a>
+                    <div class="sub-menu x-menu center-position">
+                      <a href="#"><i class="fas fa-times"></i></a><br>
+                        <a href="#cse-4-wednesday" class="cse-4-wednesday-3">&#10095;CSE-4</a>
+                        <a href="#cse-6-wednesday" class="cse-6-wednesday-3">&#10095;CSE-6</a>
+                        <a href="#mca-2-wednesday" class="mca-2-wednesday-3">&#10095;MCA-2</a>
+
+
+                        <!-- wednesday time table for CSE-4 -->
+                          <div class="timeTable-list-box mfp-hide" id="cse-4-wednesday">
+                            <span><u>March 2019</u></span><br>
+                            <span class="subject shift-right">Subject</span><br>
+                            <span class="subject-labs shift-right">Labs</span><br>
+                            <span class="free shift-right">Lunch time</span><br>
+                            <h1>Time Table</h1>
+                            <table border=2px class="shift-center">
+                              <!-- row 1 -->
+                              <tr>
+                                <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                                <th colspan="3">Subject</th>
+                                <th rowspan = "2">Room no.</th>
+                               </tr><!-- Row end -->
+                               <!-- row 2 -->
+                              <tr>
+                                <th>Grp-1</th>
+                                <th>Grp-2</th>
+                                <th>Grp-3</th>
+                              </tr><!-- Row end -->
+                              <!-- row 3 -->
+                              <tr>
+                                <th>09:30&nbsp;-&nbsp;10:25</th>
+                                <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 4 -->
+                              <tr>
+                                <th>10:25&nbsp;-&nbsp;11:20</th>
+                                <td colspan="3"><span class="subject shift-none">PL</span>&nbsp;- Sangeeta</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 5 -->
+                              <tr>
+                                <th>11:20&nbsp;-&nbsp;12:10</th>
+                                <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                                <td><span class="subject shift-none">MATHS</span>&nbsp;- Paramjeet</td>
+                                <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                                <td> 304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 6 -->
+                              <tr>
+                                <th>12:10&nbsp;-&nbsp;01:00</th>
+                                <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                                <td> 304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 7 -->
+                              <tr>
+                                <th>01:00&nbsp;-&nbsp;01:45</th>
+                                <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 8 -->
+                              <tr>
+                                <th>01:45&nbsp;-&nbsp;02:30</th>
+                                <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                              </tr><!-- Row end -->
+                              <!-- row 9 -->
+                              <tr>
+                                <th>02:30&nbsp;-&nbsp;03:20</th>
+                                <td colspan="3"><span class="subject shift-none">MATHS</span>&nbsp;- Komal</td>
+                                <td> 215</td>
+                              </tr><!-- Row end -->
+                              <!-- row 10 -->
+                              <tr>
+                                <th>03:20&nbsp;-&nbsp;04:10</th>
+                                <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                                <td> 303</td>
+                              </tr><!-- Row end -->
+                            </table><!-- Table  end -->
+                          </div>
+                          <!-- end -->
+
+                          <!-- under construction -->
+                          <div id="cse-6-wednesday" class="mfp-hide timeTable-list-box">
+                            <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                          </div>
+                          <!-- end -->
+                        <!-- End suggestion -->
+
+                        <!-- under construction -->
+                        <div id="mca-2-wednesday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                        </div>
+                        <!-- end -->
+                      <!-- End suggestion -->
+                    </div>
+                </li>
+
+                  <!-- Thrusday time table for cse-4 --->
+                <li class="item" id="thrusday"><a href="#thrusday" class="profile-btn"><i class="fas fa-calendar-week"></i>Thrusday</a>
+                    <div class="sub-menu center-position x-menu">
+                      <a href="#"><i class="fas fa-times"></i></a><br>
+                        <a href="#cse-4-thrusday" class="cse-4-thrusday-4">&#10095; CSE-4</a>
+                        <a href="#cse-6-thrusday" class="cse-6-thrusday-4">&#10095;CSE-6</a>
+                        <a href="#mca-2-thrusday" class="mca-2-thrusday-4">&#10095;MCA-2</a>
+
+                        <!-- thrusday time table for CSE-4 -->
+                          <div class="timeTable-list-box mfp-hide" id="cse-4-thrusday">
+                            <span><u>March 2019</u></span><br>
+                            <span class="subject shift-right">Subject</span><br>
+                            <span class="subject-labs shift-right">Labs</span><br>
+                            <span class="free shift-right">Lunch time</span><br>
+                            <h1>Time Table</h1>
+                            <table border=2px class="shift-center">
+                              <!-- row 1 -->
+                              <tr>
+                                <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                                <th colspan="3">Subject</th>
+                                <th rowspan = "2">Room no.</th>
+                               </tr><!-- Row end -->
+                               <!-- row 2 -->
+                              <tr>
+                                <th>Grp-1</th>
+                                <th>Grp-2</th>
+                                <th>Grp-3</th>
+                              </tr><!-- Row end -->
+                              <!-- row 3 -->
+                              <tr>
+                                <th>09:30&nbsp;-&nbsp;10:25</th>
+                                <td colspan="3"><span class="subject shift-none">MATHS</span>&nbsp;- Komal</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 4 -->
+                              <tr>
+                                <th>10:25&nbsp;-&nbsp;11:20</th>
+                                <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 5 -->
+                              <tr>
+                                <th>11:20&nbsp;-&nbsp;12:10</th>
+                                <td><span class="subject shift-none">MATHS</span>&nbsp;- Paramjeet</td>
+                                <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                                <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                                <td> 304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 6 -->
+                              <tr>
+                                <th>12:10&nbsp;-&nbsp;01:00</th>
+                                <td colspan="3"><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                                <td> 304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 7 -->
+                              <tr>
+                                <th>01:00&nbsp;-&nbsp;01:45</th>
+                                <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitnder</td>
+                                <td>304</td>
+                              </tr><!-- Row end -->
+                              <!-- row 8 -->
+                              <tr>
+                                <th>01:45&nbsp;-&nbsp;02:30</th>
+                                <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                              </tr><!-- Row end -->
+                              <!-- row 9 -->
+                              <tr>
+                                <th>02:30&nbsp;-&nbsp;03:20</th>
+                                <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                                <td rowspan="2"><span class="subject-labs shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                                <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                                <td> 215</td>
+                              </tr><!-- Row end -->
+                              <!-- row 10 -->
+                              <tr>
+                                <th>03:20&nbsp;-&nbsp;04:10</th>
+                                <td> 303</td>
+                              </tr><!-- Row end -->
+                            </table><!-- Table  end -->
+                          </div>
+                          <!-- end -->
+
+                          <!-- under construction -->
+                          <div id="cse-6-thrusday" class="mfp-hide timeTable-list-box">
+                            <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                          </div>
+                          <!-- end -->
+                        <!-- End suggestion -->
+
+                        <!-- under construction -->
+                        <div id="mca-2-thrusday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                        </div>
+                        <!-- end -->
+                      <!-- End suggestion -->
+                    </div>
+                </li>
+
+                <!-- Friday time table for cse-4 -->
+                <li class="item" id="friday"><a href="#friday" class="profile-btn"><i class="fas fa-calendar-week"></i>Friday</a>
+                    <div class="sub-menu x-menu center-position">
+                      <a href="#"><i class="fas fa-times"></i></a><br>
+                      <a href="#cse-4-friday" class="cse-4-friday-5">&#10095; CSE-4</a>
+                      <a href="#cse-6-friday" class="cse-6-friday-5">&#10095; CSE-6</a>
+                      <a href="#mca-2-friday" class="mca-2-friday-5">&#10095; MCA-2</a>
+
+                      <!-- Friday time table for CSE-4 -->
+                        <div class="timeTable-list-box mfp-hide" id="cse-4-friday">
+                          <span><u>March 2019</u></span><br>
+                          <span class="subject shift-right">Subject</span><br>
+                          <span class="subject-labs shift-right">Labs</span><br>
+                          <span class="free shift-right">Lunch time</span><br>
+                          <h1>Time Table</h1>
+                          <table border=2px class="shift-center">
+                            <!-- row 1 -->
+                            <tr>
+                              <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                              <th colspan="3">Subject</th>
+                              <th rowspan = "2">Room no.</th>
+                             </tr><!-- Row end -->
+                             <!-- row 2 -->
+                            <tr>
+                              <th>Grp-1</th>
+                              <th>Grp-2</th>
+                              <th>Grp-3</th>
+                            </tr><!-- Row end -->
+                            <!-- row 3 -->
+                            <tr>
+                              <th>09:30&nbsp;-&nbsp;10:25</th>
+                              <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 4 -->
+                            <tr>
+                              <th>10:25&nbsp;-&nbsp;11:20</th>
+                              <td><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                              <td><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td><span class="subject shift-none">MATHS</span>&nbsp;- Komal</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 5 -->
+                            <tr>
+                              <th>11:20&nbsp;-&nbsp;12:10</th>
+                              <td colspan="3"><span class="subject shift-none">PL</span>&nbsp;- Sangeeta</td>
+                              <td> 304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 6 -->
+                            <tr>
+                              <th>12:10&nbsp;-&nbsp;01:00</th>
+                              <td colspan="3"><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                              <td> 304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 7 -->
+                            <tr>
+                              <th>01:00&nbsp;-&nbsp;01:45</th>
+                              <td colspan="3"><span class="subject shift-none">MATHS</span>&nbsp;- Komal</td>
+                              <td>304</td>
+                            </tr><!-- Row end -->
+                            <!-- row 8 -->
+                            <tr>
+                              <th>01:45&nbsp;-&nbsp;02:30</th>
+                              <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                            </tr><!-- Row end -->
+                            <!-- row 9 -->
+                            <tr>
+                              <th>02:30&nbsp;-&nbsp;03:20</th>
+                              <td colspan="3"><span class="subject shift-none">PL</span>&nbsp;- Sangeeta</td>
+                              <td> 215</td>
+                            </tr><!-- Row end -->
+                            <!-- row 10 -->
+                            <tr>
+                              <th>03:20&nbsp;-&nbsp;04:10</th>
+                              <td><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                              <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                              <td><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                              <td> 303</td>
+                            </tr><!-- Row end -->
+                          </table><!-- Table  end -->
+                        </div>
+                        <!-- end -->
+
+                        <!-- under construction -->
+                        <div id="cse-6-friday" class="mfp-hide timeTable-list-box">
+                          <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                        </div>
+                        <!-- end -->
+                      <!-- End suggestion -->
+
+                      <!-- under construction -->
+                      <div id="mca-2-friday" class="mfp-hide timeTable-list-box">
+                        <span><u>March 2019</u></span><br>
+                        <span class="subject shift-right">Subject</span><br>
+                        <span class="subject-labs shift-right">Labs</span><br>
+                        <span class="free shift-right">Lunch time</span><br>
+                        <h1>Time Table</h1>
+                        <table border=2px class="shift-center">
+                          <!-- row 1 -->
+                          <tr>
+                            <th rowspan = "2">&nbsp; Time &nbsp;</th>
+                            <th colspan="3">Subject</th>
+                            <th rowspan = "2">Room no.</th>
+                           </tr><!-- Row end -->
+                           <!-- row 2 -->
+                          <tr>
+                            <th>Grp-1</th>
+                            <th>Grp-2</th>
+                            <th>Grp-3</th>
+                          </tr><!-- Row end -->
+                          <!-- row 3 -->
+                          <tr>
+                            <th>09:30&nbsp;-&nbsp;10:25</th>
+                            <td colspan="3"><span class="subject shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 4 -->
+                          <tr>
+                            <th>10:25&nbsp;-&nbsp;11:20</th>
+                            <td colspan="3"><span class="subject shift-none">OOPS</span>&nbsp;- Jyoti</td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 5 -->
+                          <tr>
+                            <th>11:20&nbsp;-&nbsp;12:10</th>
+                            <td><span class="subject shift-none">DBMS</span>&nbsp;- S.Tomer</td>
+                            <td><span class="subject shift-none">PL</span>&nbsp;- Dr.Neetu</td>
+                            <td><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 6 -->
+                          <tr>
+                            <th>12:10&nbsp;-&nbsp;01:00</th>
+                            <td colspan="3"><span class="subject shift-none">CAO</span>&nbsp;- Jitender</td>
+                            <td> 304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 7 -->
+                          <tr>
+                            <th>01:00&nbsp;-&nbsp;01:45</th>
+                            <td colspan="3"> &nbsp;Library </td>
+                            <td>304</td>
+                          </tr><!-- Row end -->
+                          <!-- row 8 -->
+                          <tr>
+                            <th>01:45&nbsp;-&nbsp;02:30</th>
+                            <td colspan="4"><span class="free shift-none">LUNCH &nbsp; BREAK</span></td>
+                          </tr><!-- Row end -->
+                          <!-- row 9 -->
+                          <tr>
+                            <th>02:30&nbsp;-&nbsp;03:20</th>
+                            <td rowspan="2"><span class="subject-labs shift-none">DBMS&nbsp;-</span>&nbsp;S.Tomer</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">OOPS</span>&nbsp;- Nisha</td>
+                            <td rowspan="2"><span class="subject-labs shift-none">IF</span>&nbsp;- Mahesh</td>
+                            <td> 305</td>
+                          </tr><!-- Row end -->
+                          <!-- row 10 -->
+                          <tr>
+                            <th>03:20&nbsp;-&nbsp;04:10</th>
+                            <td> 303</td>
+                          </tr><!-- Row end -->
+                        </table><!-- Table  end -->
+                      </div>
+                      <!-- end -->
+                    <!-- End suggestion -->
+                    </div>
+                </li>
+
+                <li class="item" id="holiday"><a href="#holiday" class="profile-btn"><i class="fas fa-calendar-week"></i>Holiday</a>
+                  <div class="sub-menu x-menu center-position sub-menu-exception">
+                    <a href="#"><i class="fas fa-times"></i></a><br>
+                    <a href="#" style="color:#fff"><i class="fas fa-calendar-week"></i>&nbsp;Saturday</a>
+                    <a href="#" style="color:#fff"><i class="fas fa-calendar-week"></i>&nbsp;Sunday</a>
+                  </div>
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:demonking3156@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="copy-right">
+        &copy; 2019 all rights reserved <span>OneEyeHealer</span>
+      </div>
+    </footer>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="resources/js/script.js"></script>
+  <script src="vendors/js/jquery.magnific-popup.min.js"></script>
+</body>
+</html>
